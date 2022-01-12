@@ -1,4 +1,29 @@
-/* top players style */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=The+Nautigal&display=swap');
+/* fonts */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width:870px;
+    padding:30px 30px;
+    padding-top:14px;
+
+}
+.work1{
+    color: #562EFF;
+    font-size:24px;
+    font-weight:500px;
+
+
+}
+
 .players{
     display:grid;
     grid-template-columns:auto auto auto;
@@ -6,8 +31,18 @@
 .player{
     display:flex;
     align-items: center;
+    grid-row-gap:30px;
 }
 .player img{
     height: 56px;
-    width: 56px;;
+    width: 56px;
+   
+}
+.player-name{
+    margin-left:16px;
+    font-size:18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
 }
